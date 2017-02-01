@@ -1,0 +1,474 @@
+V "GNAT Lib v4.6"
+P SS ZX
+R nnnvvnnnvnvvvnnnnnvvnvnvnnvnvnnvnnvnnnnnnvnnvnvvnvnvnvnvnnvnvnnvnnnnnnnv1nv1+nnnv1+nn
+
+U lower_layer.inet%b	lower_layer-inet.adb	9ca54b7d OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+W ada.unchecked_deallocation%s
+W c_sockets%s		c_sockets.ads		c_sockets.ali
+W c_sockets.arch%s	c_sockets-arch.adb	c_sockets-arch.ali
+W debugging%s		debugging.adb		debugging.ali  ED
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W lower_layer%s		lower_layer.adb		lower_layer.ali
+W lower_layer.faults%s	lower_layer-faults.adb	lower_layer-faults.ali
+W lower_layer.inet%s	lower_layer-inet.adb	lower_layer-inet.ali
+W lower_layer.inet.udp%s  lower_layer-inet-udp.adb  lower_layer-inet-udp.ali
+W lower_layer.inet.udp.uni%s  lower_layer-inet-udp-uni.adb  lower_layer-inet-udp-uni.ali
+W misc_util_accesses%s	misc_util_accesses.adb	misc_util_accesses.ali
+W misc_util_terminators%s  misc_util_terminators.adb  misc_util_terminators.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U lower_layer.inet%s	lower_layer-inet.ads	f747bc20 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada_sockets%s		ada_sockets.adb		ada_sockets.ali  AD
+W concurrency%s		concurrency.adb		concurrency.ali
+W debugging%s		debugging.adb		debugging.ali
+W keyed_lists_generic%s	keyed_lists_generic.adb	keyed_lists_generic.ali  AD
+W lists_generic%s	lists_generic.adb	lists_generic.ali
+W lower_layer%s		lower_layer.adb		lower_layer.ali
+W misc_util_accesses%s	misc_util_accesses.adb	misc_util_accesses.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W unchecked_deallocation%s
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-taside.ads		20090409150019 a4888134
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D ada_sockets.ads	20131017103555 372c9145
+D c_sockets.ads		20131017103555 44862f45
+D c_sockets-arch.ads	20131017103555 06eb1e3d
+D c_sockets_arch.ads	20131017103555 c328cf60
+D concurrency.ads	20131017103555 d11dedce
+D debugging.ads		20131017103555 6cef8f35
+D debugging.adb		20131017103555 c523d8de
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D i-cstrin.ads		20090417131547 f3023ec4
+D i-cstrea.ads		20100622165701 1bd72c32
+D keyed_lists_generic.ads  20131017103555 b050c1c0
+D keyed_lists_generic.adb  20131017103555 3c7da8ca
+D lists_generic.ads	20131017103555 4cea129e
+D lists_generic.adb	20131017103555 a89ee239
+D lower_layer.ads	20131017103555 bc61d30f
+D lower_layer-faults.ads  20131017103555 36b9d4f5
+D lower_layer-inet.ads	20131017103555 1d47d264
+D lower_layer-inet.adb	20131017103555 8be1e677
+D lower_layer-inet-udp.ads  20131017103555 60f0483f
+D lower_layer-inet-udp-uni.ads  20131017103555 c94f5d30
+D misc_util_accesses.ads  20131017103555 49c53d27
+D misc_util_accesses.adb  20131017103555 e53b0f99
+D misc_util_terminators.ads  20131017103555 4b8d8829
+D system.ads		20120503154647 23e1f70b
+D s-atacco.ads		20090409150019 1dc856ad
+D s-conca2.ads		20090420091404 fbd0f2fc
+D s-conca3.ads		20090420091404 762a026a
+D s-conca4.ads		20090420091404 025fe3be
+D s-conca5.ads		20090420091404 1039cea1
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-linux.ads		20090730092306 47911ab1
+D s-multip.ads		20101011073009 38ac9f73
+D s-osinte.ads		20101127183452 6e2d2e09
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20101018101807 bba781f7
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-tasinf.ads		20090409150019 21316953
+D s-taspri.ads		20080408071349 af44aca8
+D s-taprop.ads		20090409150019 07f79e46
+D s-taskin.ads		20101021101406 b2eaee08
+D s-taprob.ads		20090409150019 502249e3
+D s-tpoben.ads		20090409150019 e8374469
+D s-tpobop.ads		20090409150019 5f548bb3
+D s-tasren.ads		20090409150019 86fa7427
+D s-tassta.ads		20101018103456 e88ef99e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D text_io.ads		20070406091342 45d626c9
+D unchdeal.ads		20070406091342 214516a4
+X 1 ada.ads
+16K9*Ada 19e8 30|82r23 83r23 84r23 113r22 114r22 172r23 173r23 31|29r6 40r6
+. 47r6 103r35 159r23 160r23 173r35 290r24 314r26 337r20 367r20 406r24 423r22
+. 424r22 451r23 452r23 453r23 551r16 554r19 604r27 634r33
+X 2 a-except.ads
+55K13*Exceptions 370e19 31|47w10 337r24 367r24
+77V13*Exception_Name{string} 31|337s35 367s35
+X 7 a-stream.ads
+36K13*Streams 69e16 30|82r27 83r27 84r27 113r26 114r26 172r27 173r27 31|159r27
+. 160r27 423r26 424r26 451r27 452r27 453r27 551r20 554r23
+42M9*Stream_Element
+44I9*Stream_Element_Offset<long_integer> 30|83r35 84r35 114r34 173r35 31|160r35
+. 424r34 452r35 453r35 551r28 554r31
+51A9*Stream_Element_Array(42M9)<44I9> 30|82r35 113r34 172r35 31|159r35 423r34
+. 451r35
+X 9 a-taside.ads
+39K13*Task_Identification 72e28 31|40w10 290r28 314r30 406r28 604r31 634r37
+43P9*Task_Id(64|891R9)
+53V13*Current_Task{43P9} 31|290s48 314s50 406s48 604s51 634s57
+X 12 a-uncdea.ads
+17+9 Object 31|104r10 174r10
+18P9 Name(17+9) 31|105r10 175r10
+20u15*Unchecked_Deallocation 31|29w10 103r39 173r39
+X 13 ada_sockets.ads
+35K9*Ada_Sockets 296e16 30|31w6 58r39 61r43 64r37 70r43 81r23 88r20 125r13
+. 126r13 218r13 221r24 224r24 263r19 284r20 285r6 285r36 287r37 291r29 292r6
+. 293r29 294r6 31|205r26 206r26 218r16 219r16 243r19 245r24 350r19 369r10
+. 381r19 392r10 450r23 549r43 597r16 611r13 612r28 613r16 623r23 623r51 625r19
+. 658r18 678r28 679r15
+51R9*Host_No<16|83R9> 30|88r32 125r25 284r32 291r41 293r41 31|219r28
+59V13*To_Host{51R9} 30|292s18 294s18 31|205s38
+61V13*To_String{string} 30|287s49 31|243s31
+65V13*">="{boolean} 31|221s18
+67V13*Get_Addr_By_Name{51R9} 30|285s18
+69V13*Get_Host_Name{string} 30|285s48
+73M9*Port_No<21|44M9> 30|126r25 31|218r28
+80V13*To_Port{73M9} 31|206s38
+83V13*To_Integer{integer} 31|245s36
+87V13*">="{boolean} 31|224s30
+96I9*Socket<21|35I9> 30|58r51 61r55 64r49 70r55 81r35 218r25 221r36 263r31
+. 31|350r31 381r31 450r35 549r55
+106U14*Destroy_Socket 31|369s22 392s22
+131V13*Image{string} 30|224r36
+135A9*Socket_Array(96I9)<integer> 31|612r40 613r28 623r35 625r31 678r40 679r27
+141V13*Ready_Socket{135A9} 31|623s63
+145P9*Socket_Array_A(135A9) 31|597r28
+151U14*Free[74|20] 31|611s25
+250X4*Timeout_Expired 31|658r30
+X 14 c_sockets.ads
+38K9*C_Sockets 641e14 31|42w6 43r6 457r26 488r9 495r40 496r31 503r18 513r32
+. 516r23
+51i4*AF_INET{21|35I9} 31|495r50
+103R12*in_addr{16|83R9} 31|496r41
+105R12*sockaddr_in{16|103R9} 31|457r36
+346V13*Sendto{21|35I9} 31|503s28
+638V13*C_Errno{21|35I9} 31|513s42
+X 15 c_sockets-arch.ads
+31K19*Arch 84e19 31|43w16 488r19 516r33
+41V13*Send_UDP_Error_Ignored{boolean} 31|516s38
+76U14*bzero 31|488s24
+X 16 c_sockets_arch.ads
+105i10*sin_family{21|36I9} 31|495m17
+106m10*sin_port{21|44M9} 31|497m17
+107r10*sin_addr{83R9} 31|496m17
+X 17 concurrency.ads
+8K9*Concurrency 81e16 30|37w6 258r15 268r19
+17W19*Mutex 39e13 30|258r27 268r31
+26Y16 Enter 31|290s17 314s19 406s17 604s20 634s26
+27Y16 Leave 31|295s17 303s17 330s19 408s17 411s20 619s20 648s26 653s29
+28V16 Image{string} 31|289s27 294s27 300s27
+X 18 debugging.ads
+13K9*Debugging 125e14 31|48w6 61r30 63r36 65r41
+69s7 Name{string} 31|62r7
+70b7 Debug{boolean} 31|62r21
+71u14*Put_Line_Gen 31|61r40
+100s7 Name{string} 31|64r7
+101u14*Put_Line_Error_Gen 31|63r46
+110s7 Name{string} 31|66r7
+111u14*Put_Exception_Error_Gen 31|65r51
+X 20 interfac.ads
+36K9*Interfaces 171e15 31|45r6 72r22 486r18
+57M9*Unsigned_32 31|486r29
+X 21 i-c.ads
+18K20*C 230e17 31|45w17 72r33
+23N4*CHAR_BIT 31|488r65 507r53
+35I9*int<integer> 31|455r18 458r15 503r38 505r38 510r23 513r25 519r31
+36I9*short<short_integer> 31|495r33
+44M9*unsigned_short 31|497r33
+X 24 keyed_lists_generic.ads
+23+9 Key 30|198r7 221r7
+25+9 Element 30|199r7 222r7
+27i4 Capacity{positive} 30|200r7 223r7
+35V18 Image_Key{string} 30|201r7 224r7
+36V18 Image_Element{string} 30|202r7 225r7
+38k9*Keyed_Lists_Generic 361e24 30|34w6 197r30 220r30
+57R9*Keyed_List<3|46R9> 30|205r31[197] 230r39[220]
+76A9*Keys_Array(13|96I9)<integer>
+144U14*Get_Element 31|431s18[30|197] 637s27[30|220] 685s27[30|220]
+166V13*Get_Keys{76A9[30|220]} 31|614s28[30|220] 680s28[30|220]
+173V13*Size_Of{natural} 31|315s21[30|220] 610s27[30|220] 675s22[30|220]
+182V13*Image{string} 31|618s31[30|197]
+X 25 keyed_lists_generic.adb
+29U14 Put_Line[18|71] 19|129b14[30|220]
+38V16 Is_Null_A[34|15]{boolean} 35|13b13[30|197]
+51V16 Image_A[34|22]{string} 35|25b13[30|197]
+X 27 lists_generic.adb
+495V16 Image_A[34|22]{string} 35|25b13[24|353[30|220]]
+X 28 lower_layer.ads
+40K9*Lower_Layer 284e16 30|39r9 43r33 124r33 296r5 31|33r6 35r6 50r14 208r16
+. 242r14 242r33 257r23 262r7 370r16 393r16 436r16 558r32 712r5
+58R9*Stream<7|39R9> 262e17 31|257r35 272r42 553r21
+63U14*Reset 31|561s7
+110H9*Address 264e47 30|43r45 124r45 31|242r45
+112P9*Address_CA(110R9) 30|111r17 163r20 170r17 198r24 264r19 31|157r21 270r39
+. 271r42 421r18 428r20 558r14
+114P9*Handler_A 30|69r43 103r35 106r39 164r20 31|347r35 378r39
+118V13*Image{string} 31|242s26
+131x14*Send
+138x14*Send_From
+184V13*"="{boolean} 24|30i18
+186V13*">="{boolean} 24|29i18
+192U14*Free 31|434s7
+194V13*Image{string} 30|201r24 31|135s28 138s28
+204X4*Binding_Error 31|370r28 393r28
+215X4*Sending_Error 31|521r25
+224X4*Unbound_Address 31|436r28
+236X4*Bad_Address 31|208r28
+256i10 Current_Length{7|44I9} 31|567m12 569r14
+261a10 Data{7|51A9} 31|565m32
+281U14 Send_No_Faults 31|262s19
+X 29 lower_layer-faults.ads
+6K21*Faults 72e23 31|35w18 573r13 573r33 574r12 574r32 575r13 575r40 578r13
+. 578r41
+10n30*Receive{10E9} 31|573r40
+10n39*Any{10E9} 31|574r39
+14n35*Receiving{14E9} 31|575r47 578r48
+18V13*Should_Fail{boolean} 31|573s20 574s19
+43U14*Print_Failed 31|575s20 578s20
+X 30 lower_layer-inet.ads
+39K21*Inet 28|40k9 30|230r23 296l17 296e21 31|33r18 50b26 558r44 712l17 712t21
+43H9*Address<28|110R9> 28|131p14 138p14 30|49p14 49r37 57p14 57r39 60p14
+. 60r43 63p14 63r37 68p14 68r43 75p14 75r45 80r23 96p13 96r35 100P13 100r32
+. 102P14 102r35 105P14 105r40 108P14 108r37 110P14 112r22 118P13 118r35 124c9
+. 127e14 31|200r37 207r21 216r32 239r35 319r20 320r24 346r35 356r13 359r21
+. 377r40 386r17 388r21 401r37 407r23 422r22 428r38 428r53 449r23 496r50 497r49
+. 690r19
+49U14*Build 49<21 50>21 51>21 31|200b14 210l8 210t13
+49r21 An_Address{43R9} 31|200b21 205m7 206m7 207r36
+50s21 IP{string} 31|201b21 205r47
+51i21 Port{natural} 31|202b21 206r47
+57x14*Bind 57>20 58=20 31|356R7
+57r20 An_Address{43R9}
+58i20 A_Socket{13|96I9}
+60x14*Bind_Any 60<24 61=24 31|319R10 386R7
+60r24 An_Address{43R9}
+61i24 A_Socket{13|96I9}
+63x14*Unbind 63>22 64>22
+63r22 An_Address{43R9}
+64i22 A_Socket{13|96I9}
+68x14*Bind_Address 68>28 69>28 70>28 31|320R10 359R7 388R7
+68r28 An_Address{43R9}
+69p28 Handler{28|114P9}
+70i28 A_Socket{13|96I9}
+75x14*Unbind_Address 75>30 31|407R7 689R16
+75r30 An_Address{43R9}
+79U14*Send 80>7 81>7 82^7 83>7 84>7 31|448b14 537l8 537t12
+80c7 To_Addr<43R9> 31|449b7 464r24 496r59 497r58 518r36 530r61
+81i7 To_Sock{13|96I9} 31|450b7 503r43
+82p7 Data(7|51A9) 31|451b7 504r36
+83i7 Length{7|44I9} 31|452b7 505r43 510r28
+84i7 First{7|44I9} 31|453b7
+88r4*My_IP{13|51R9} 284c4 287r60
+89s4*My_IP_String{string} 287c4
+96y13*Valid{boolean} 96>20 31|207R14
+96r20 An_Address{43R9}
+100V13*">="{boolean}<28|180p13> 100>19 100>25 31|216b13 233l8 233t12
+100r19 Left{43R9} 31|216b19 221r10 222r13 224r20
+100r25 Right{43R9} 31|216b25 221r21 222r23 224r33
+102U14*Bind<28|120p14> 102>20 103>20 31|346b14 371l8 371t12
+102r20 An_Address{43R9} 31|346b20 356r28 358r24 359r36
+103p20 Handler{28|114P9} 31|347b20 353r10 360r21
+105U14*Bind_Any<28|123p14> 105<24 106>24 31|377b14 394l8 394t16
+105r24 An_Address{43R9} 31|377b24 386m32 388r36
+106p24 Handler{28|114P9} 31|378b24 383r10 389r21
+108U14*Unbind<28|126p14> 108>22 31|401b14 413l8 413t14
+108r22 An_Address{43R9} 31|401b22 407r38
+110U14*Receive<28|150p14> 111<7 112>7 113^7 114=7 31|420b14 439l8 439t15
+111p7 From{28|112P9} 31|421b7 438m16
+112r7 To{43R9} 31|422b7 428r68
+113p7 Data(7|51A9) 31|423b7 438r28
+114i7 Length{7|44I9} 31|424b7 438m34
+118V13*Image{string}<28|118p13> 118>20 31|239b13 246l8 246t13 358s17 464R17
+. 518R29 530R54
+118r20 An_Address{43R9} 31|239b20 242r54 243r42 245r48
+125r7 IP{13|51R9} 31|205m18 221r15 221r27 222r18 222r29 243r53 496r68
+126m7 Port{13|73M9} 31|206m18 224r25 224r39 245r59 497r67
+129U14 Refresh_Receiver_Address 31|255b14 263l8 263t32 297s7
+133i4 Lists_Capacity{positive} 200r24 223r24
+142H9 Address_Info 142e52 144p13 144r29 146r35 148r39 162r35 31|78r35 92r46
+. 104r20 120r20
+144y13 Image{string} 144>20 31|81R14
+144r20 Info{142R9}
+146V13 Image_Class{string} 146>26 31|78b13 82l8 82t19 34|32i21
+146c26 Info<142R9> 31|78b26 81r21
+148P9 Address_Info_CA(142R9) 150r31 152r33 154r29 31|88r31 101r33 105r20
+. 117r29 121r20 178r23
+150V13 Is_Null{boolean} 150>22 31|88b13 95l8 95t15 108s14 178s14
+150p22 Info{148P9} 31|88b22 94r35
+152U14 Free 152=20 31|101b14 111l8 111t12
+152p20 Info{148P9} 31|101b20 108r23 109m22
+154V13 Image{string} 154>20 31|117b13 124l8 124t13
+154p20 Info{148P9} 31|117b20 123r24
+162H9 Recv_Info<142R9> 165e14 169p14 171r23 175P13 175r29 177r35 179r36 31|130r29
+. 146r35 174r20 190r20 690r34
+163p7*Address{28|112P9} 31|135r40 138r40 584r27 690r61
+164p7*The_Handler{28|114P9} 31|133r15 583r18
+169x14 Receive 170<7 171=7 172^7 173=7 31|163R7
+170p7 From{28|112P9}
+171r7 To_Info{162R9}
+172p7 Data(7|51A9)
+173i7 Length{7|44I9}
+175V13 Image{string}<144p13> 175>20 31|130b13 140l8 140t13 149R14
+175r20 Info{162R9} 31|130b20 133r10 135r35 138r35
+177V13 Image_Class{string} 177>26 31|146b13 150l8 150t19 34|32i21
+177c26 Info<162R9> 31|146b26 149r21
+179P9 Recv_Info_CA(162R9) 181r33 183r29 199r24 222r24 31|158r23 171r33 175r20
+. 187r29 191r20 429r20 548r39 599r16 682r25
+181U14 Free 181=20 31|171b14 181l8 181t12
+181p20 Info{179P9} 31|171b20 178r40 179m22
+183V13 Image{string} 183>20 202r24 225r24 31|187b13 194l8 194t13
+183p20 Info{179P9} 31|187b20 193r24
+197K12 Addr_Lists[24|38] 205r20 31|431r7 618r20
+205r4 Recv_Addresses{24|57R9[197]} 31|431r31 618r38
+220K12 Sock_Lists[24|38] 230r28 31|315r10 610r16 614r17 637r16 675r11 680r17
+. 685r16
+230r4 Recv_Sockets{24|57R9[220]} 31|315r30 610r36 614r38 637r40 675r31 680r38
+. 685r40
+234b4 Recv_Address_Change{boolean} 31|291m7 606r13 615m13
+238b4 Recv_Finalize{boolean} 31|292m7 609r24
+242T14 Receiver_Task 249l8 249e21 251r35 31|325r30 595b14 710l8 710t21
+248Y13 Finished 31|301s20 701b14
+251P9 Receiver_Task_A(242T14) 253r18
+253p4 The_Receiver{251P9} 31|301r7 325m10
+258w4 The_Mutex{17|17W19} 31|289r17 290r7 294r17 295r7 300r17 303r7 406r7
+. 408r7 411r10 604r10 619r10 634r16 648r16 653r19
+263i4 Dummy_Socket{13|96I9} 31|319m55 321r46 568r22
+264p4 Dummy_Address{28|112P9} 31|262r35 318m10 319r35 320r39
+268w4 Dummy_Mutex{17|17W19} 31|314r7 330r7
+274N4 Receive_Buffer_Size 31|553r29
+291r4 First_IP_Multi{13|51R9}
+293r4 Last_IP_Multi{13|51R9}
+X 31 lower_layer-inet.adb
+57b4 Debug{boolean} 62r30
+59a4 Name{string} 62r15 64r15 66r15
+61U14 Put_Line[18|71] 19|129b14 31|288s7 293s7 299s7 313s7 317s10 331s7 336s10
+. 352s7 357s7 361s7 366s10 387s7 463s7 517s19 530s13 576s13 605s10 617s10
+. 618s10 635s16 654s19 662s16 666s16 670s7
+63U14 Put_Line_Error[18|101] 19|176b14 31|708s10
+65U14 Put_Exception_Error[18|111] 19|187b14 31|704s10
+72K12 C=72:33 455r16 458r13 488r63 495r31 497r31 503r36 505r36 507r51 510r21
+. 513r23 519r29
+92P12 Tmp_Address_Info_CA(30|142R9) 94r14
+103U17 Deallocate[12|20] 109s10
+119V16 Image_CA[34|34]{string} 123s14 35|52b13
+156U14 Receive 156b14 157<7 158>7 159^7 160=7 164l8 164t15 438s7 563s7
+157p7 From{28|112P9} 163m16
+158p7 To_Info{30|179P9} 163r22 564r16
+159p7 Data(7|51A9) 163r35 565r16
+160i7 Length{7|44I9} 163m41 566r16
+173U17 Deallocate[12|20] 179s10
+189V16 Image_CA[34|34]{string} 193s14 35|52b13
+257r7 Buffer{28|58R9} 259m23 262m50
+270U14 Handler_Dummy 270b14 270>29 271>29 272^29 276l8 276t21 321r24
+270p29 From{28|112P9}
+271p29 To{28|112P9}
+272p29 Data(28|58R9)
+284U14 Terminate_Receiver 284b14 304l8 304t26 327r53
+310U14 Check_Dummy 310b14 340l8 340t19 354s10 384s10
+333r12 Except{2|68R9} 337r50
+350i7 The_Socket{13|96I9} 356m41 360r30 369r38
+363r12 Except{2|68R9} 367r50
+381i7 The_Socket{13|96I9} 386m45 389r30 392r38
+426b7 Found{boolean} 433m37 435r14
+428p7 The_Address{28|112P9} 432r31 434m13
+429p7 Info{30|179P9} 433m31 438r22
+457r7 Sock_Addr{14|105R12} 488m30 488r48 495m7 496m7 497m7 506m39 507r36
+458i7 Sent{21|35I9} 503m10 510r13 519r42
+460b7 Resend{boolean} 500m7 501r13 532m13
+513i16 Error{21|35I9} 516r62
+548U14 Service_Socket 548b14 548>30 549>30 589l8 589t22 642s16
+548p30 Info{30|179P9} 564r27 583r13 584r22
+549i30 A_Socket{13|96I9} 568r10
+553r7 Data{28|58R9} 561m14 562r21 565m27 567m7 569r9 584m36
+554i7 The_Length{7|44I9} 562m7 566m27 567r30
+558p7 From{28|112P9} 563m16 584r16
+597p7 Sockets{13|145P9} 611m31 612m13 625r45
+598b7 Found{boolean} 639m51
+599p7 Info{30|179P9} 639m45 642r32
+623a16 Ready{13|135A9} 638r45 638r52 642r38 642r45
+678a13 Bound_Sockets{13|135A9} 684r26 686r40
+681b13 Found{boolean} 688m40
+682p13 Bound_Info{30|179P9} 687m40 690r45
+684i17 Count{integer} 686r55
+703r12 Except{2|68R9} 704r31
+X 32 lower_layer-inet-udp.ads
+29K26*UDP 31|33r23 318r31 558r49 32|76e25
+X 33 lower_layer-inet-udp-uni.ads
+28K30*Uni 31|33w27 318r35 558r53 33|48e29
+30R9*Address<32|31R9> 31|318r39 558r57 33|35e17
+X 34 misc_util_accesses.ads
+8K9*Misc_Util_Accesses 31|27w6 119r32 189r32 34|101e23
+30H12 Object 31|120r10 190r10
+31P12 Name(30R12) 31|121r10 191r10
+34v13*Image_CA 31|119r51 189r51
+X 35 misc_util_accesses.adb
+27V16 Is_Null[34|15]{boolean} 13b13[27|495[24|353[30|220]]]
+54V16 Is_Null[34|27]{boolean} 40b13[31|189]
+X 36 misc_util_terminators.ads
+11K9*Misc_Util_Terminators 31|38w6 327r10 707r10 36|30e26
+21U14*Register_Terminator 31|327s32
+25U14*Execute_Terminators 31|707s32
+X 64 s-taskin.ads
+891R9*Ada_Task_Control_Block
+

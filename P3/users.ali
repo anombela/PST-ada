@@ -1,0 +1,230 @@
+V "GNAT Lib v4.6"
+P SS ZX
+R nnnvnnnvvvvnnnnnnnnnnnnvnvvnnnnvnnvnnnnnnvnnvnvnnnnnnnnvnnvnnnnvnnnnnnnnnnnnnnnn
+
+U users%b		users.adb		fa2c8bc5 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W chat_messages%s	chat_messages.ads	chat_messages.ali
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+U users%s		users.ads		e5a0e25f EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W chat_messages%s	chat_messages.ads	chat_messages.ali
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-comlin.ads		20100623092347 e0accaa5
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101220072657 e684739b
+D a-tags.ads		20101021101406 c7695348
+D a-taside.ads		20090409150019 a4888134
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D ada_sockets.ads	20080723100827 372c9145
+D c_sockets.ads		20120529214139 44862f45
+D c_sockets_arch.ads	20120529194800 c328cf60
+D chat_messages.ads	20131106222506 1952125d
+D concurrency.ads	20081111152635 d11dedce
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D i-cstrin.ads		20090417131547 f3023ec4
+D i-cstrea.ads		20100622165701 1bd72c32
+D keyed_lists_generic.ads  20080723100827 b050c1c0
+D lists_generic.ads	20080723100827 4cea129e
+D lower_layer.ads	20080723100827 bc61d30f
+D lower_layer-inet.ads	20080723100827 1d47d264
+D lower_layer-inet-udp.ads  20080723100827 60f0483f
+D lower_layer-inet-udp-uni.ads  20080723100827 c94f5d30
+D lower_layer_udp.ads	20080723100827 ec2df04c
+D system.ads		20120427100214 23e1f70b
+D s-atacco.ads		20090409150019 1dc856ad
+D s-conca2.ads		20090420091404 fbd0f2fc
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-linux.ads		20090730092306 47911ab1
+D s-multip.ads		20101011073009 38ac9f73
+D s-osinte.ads		20101127183452 6e2d2e09
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20101018101807 bba781f7
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-string.ads		20090417130712 46b01415
+D s-ststop.ads		20090417130712 ee472be4
+D s-tasinf.ads		20090409150019 21316953
+D s-taspri.ads		20080408071349 af44aca8
+D s-taprop.ads		20090409150019 07f79e46
+D s-taskin.ads		20101021101406 b2eaee08
+D s-taprob.ads		20090409150019 502249e3
+D s-tpoben.ads		20090409150019 e8374469
+D s-tassta.ads		20101018103456 e88ef99e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D unchdeal.ads		20070406091342 214516a4
+D users.ads		20131106222728 ebfc91a8
+D users.adb		20131106222700 1f8c699a
+X 1 ada.ads
+16K9*Ada 19e8 69|3r6 4r6 6r6 7r6 8r6 15r29 18r18 63r22 70|3r6 4r6 6r6 7r6
+. 8r6 12r31 29r48 175r29 180r30
+X 2 a-calend.ads
+36K13*Calendar 358e17 69|7w10 18r22 63r26 70|7w10 29r52 175r33 180r34
+38I9*Time 69|18r31 63r35 70|175r42
+52V13*Clock{38I9} 70|29s61 180s43
+97V13*"-"{duration} 70|186s48 188s68 195s62
+X 5 a-comlin.ads
+38K13*Command_Line 139e21 69|6w10 70|6w10
+X 12 a-string.ads
+16K13*Strings 35e16 69|3r10 15r33 70|3r10
+X 14 a-strunb.ads
+77K21*Unbounded 490e26 69|3w18 15r41 70|3w18
+80R9*Unbounded_String 474e14 69|27r67 32r58 40r81 41r75 52r85 53r79 62r28
+. 70|37r67 55r57 95r81 96r75 99r26 121r37 122r37 171r85 172r79 210r37 211r37
+95V13*To_Unbounded_String{80R9} 70|107s45 108s49 110s45 111s49 197s61 198s65
+101V13*To_String{string} 70|73s32 73s63 108s73 111s73 198s89
+X 17 a-textio.ads
+49K13*Text_IO 472e16 69|4w10 70|4w10
+X 19 a-uncdea.ads
+20u15*Unchecked_Deallocation 69|8w10 70|8w10 12r35
+X 23 chat_messages.ads
+6K9*Chat_Messages 10e18 69|5w6 16r28 70|5w6
+8E14*Message_Type 8e68 69|17r21 38r74 51r78 70|93r74 120r36 170r78 209r36
+8n31*Init{8E14} 70|106r39
+8n46*Writer{8E14} 70|104r36
+8n54*Server{8E14} 70|119r50 208r50
+X 31 lower_layer.ads
+112P9*Address_CA(110R9)
+184V13*"="{boolean} 29|30i18 70|28s38 45s38 116s38 151s36
+186V13*">="{boolean} 29|29i18
+X 35 lower_layer_udp.ads
+4K9*Lower_Layer_UDP 150e20 69|2w6 14r29 70|2w6
+8R12*Buffer_Type{31|58R9} 70|100r40 177r40
+11U14*Reset 70|118s37 207s37
+23P12*End_Point_Type{31|112P9} 69|19r22 23r71 26r72 31r68 39r71 45r72 50r75
+. 61r25 70|22r71 36r72 54r67 94r72 132r72 169r75
+110U14*Send 70|123s37 212s37
+X 69 users.ads
+10K9*Users 67l5 67e10 70|10b14 219l5 219t10
+12P14*Clients(57R14) 21r42 25r42 30r42 37r42 44r48 48r50 58c14 64r28 70|12r70
+. 14r40 20r42 23r26 35r42 39r26 53r41 59r26 92r43 98r26 131r48 135r26 136r25
+. 167r50 174r26
+14K17*LLU=14:29 19r18 23r67 26r68 31r64 39r67 45r68 50r71 61r21 70|22r67
+. 36r68 54r63 94r68 100r36 118r33 123r33 132r68 169r71 177r36 207r33 212r33
+15K17*ASU=15:41 27r63 32r54 40r77 41r71 52r81 53r75 62r24 70|37r63 55r53
+. 73r28 73r59 95r77 96r71 99r22 107r41 108r45 108r69 110r41 111r45 111r69
+. 121r33 122r33 171r81 172r75 197r57 198r61 198r85 210r33 211r33
+16K17*CM=16:28 17r18 38r71 51r75 70|93r71 104r33 106r36 119r47 120r33 170r75
+. 208r47 209r33
+21U19*Mensaje_Hora 21>32 22>49 23>49 70|20b19 33l13 33t25
+21p32 Lista{12P14} 70|20b32 25r28
+22i49 Posicion{integer} 70|21b49
+23p49 Mensaje_EP_H{35|23P12} 70|22b49 28r40
+25U19*Busca_Nicks 25>32 26>49 27=49 28=49 70|35b19 51l13 51t24 102s17
+25p32 Lista{12P14} 70|35b32 42r28
+26p49 Mensaje_EP_H{35|23P12} 70|36b49 45r40
+27r49 Nick{14|80R9} 70|37b49 46m34
+28i49 Posicion{integer} 70|38b49
+30U19*Insertar 30=28 31>41 32>43 33=43 34<43 35>43 70|53b19 90l13 90t21
+30p28 Lista{12P14} 70|53b28 67r28 87r46 88m25
+31p41 Client_EP_Handler{35|23P12} 70|54b41 85r39
+32r43 Nick{14|80R9} 70|55b43 73r73 86r41
+33i43 Posicion{integer} 70|56b43 62r20 63m25 63r35 65m25 65r35 75m33 75r43
+34b43 Acogido{boolean} 70|57b43 69m25 78m33 83r20
+35i43 Max_Clients{integer} 70|58b43 62r29
+37U19*Mens_Server 37>32 38=49 39>49 40=49 41=49 42=49 70|92b19 129l13 129t24
+37p32 Lista{12P14} 70|92b32 102r29 113r28
+38e49 Mensaje_Tipo{23|8E14} 70|93b49 104r20 106r23 119m33 120r70
+39p49 Mensaje_EP_H{35|23P12} 70|94b49 102r35 116r41
+40r49 Mensaje_Comentario{14|80R9} 70|95b49 108m25 111m25 122r77
+41r49 Mensaje_Nick{14|80R9} 70|96b49 105m25 107m25 110m25 121r76
+42i49 Posicion{integer} 70|97b49 102m53
+44U19*Borrar_Cliente 44=34 45>49 46=49 70|131b19 165l13 165t27 199s49
+44p34 Lista{12P14} 70|131b34 140r26 141r25 151r28 162m17
+45p49 Mensaje_EP_H{35|23P12} 70|132b49 151r38
+46i49 Posicion{integer} 70|133b49 143r20 163m17 163r27
+48U19*Expulsar_Cliente 48=36 49=57 50>53 51=53 52=53 53=53 54>53 70|167b19
+. 217l13 217t29
+48p36 Lista{12P14} 70|167b36 183r34 192r34 199m64 204r34
+49i57 Posicion{integer} 70|168b53 182r20 199m83
+50p53 Mensaje_EP_H{35|23P12} 70|169b53 199r70
+51e53 Mensaje_Tipo{23|8E14} 70|170b53 208m33 209r70
+52r53 Mensaje_Comentario{14|80R9} 70|171b53 198m41 211r77
+53r53 Mensaje_Nick{14|80R9} 70|172b53 197m41 210r76
+54i53 Max_Clients{integer} 70|173b53 182r30
+57R14 Clientes 58r32 60c14 65e19 70|12r59 84r39
+61p17*EP{35|23P12} 70|28r36 45r36 85m33 116r36 123r51 151r34 212r51
+62r17*Apodo{14|80R9} 70|46r49 73r50 86m33 198r107
+63i17*Hora{2|38I9} 70|29m41 186r57 188r77 195r71
+64p17*Siguiente{12P14} 70|31r34 49r42 80r42 87m33 126r42 154r48 159r32 190r50
+. 202r50 213r42
+X 70 users.adb
+12U19 Free[19|20] 144s25 155s33
+14V18 EsListaVacia{boolean} 14b18 14>33 18t12 26s28 43s28 68s20 71s28 114s28
+. 149s41 184s35 193s35 205s35
+14p33 list{69|12P14} 17r24
+23p17 P_Lista{69|12P14} 25m17 26r41 28r28 29r33 31m17 31r26
+39p17 P_Lista{69|12P14} 42m17 43r41 45r28 46r41 49m25 49r34
+59p17 P_Lista{69|12P14} 67m17 68r33 71r41 73r42 80m25 80r34 84m25 85r25 86r25
+. 87r25 88r34
+98p17 P_Lista{69|12P14} 113m17 114r41 116r28 123r43 126m25 126r34
+99r17 Nick{14|80R9} 102m48 105r39 108r83 111r83
+100r17 Buffer{35|8R12} 118m44 120m56 121m61 122m62 123m55
+134b17 Vacio{boolean} 145m25 149r27
+135p17 P_Lista{69|12P14} 140m17 144m30 153m33 155m38
+136p17 P_List{69|12P14} 141m17 149r54 153r42 154m33 154r41 159m17 159r25
+. 162r26
+174p17 P_Lista{69|12P14} 183m25 184r48 186r49 188r69 190m33 190r42 192m25
+. 193r48 195r63 198r99 202m33 202r42 204m25 205r48 212r43 213m25 213r34
+175i17 Hora_Actual{2|38I9} 180m17 186r37 188r57 195r51
+176o17 Mayor_Tiempo{duration} 181m17 186r64 188m41 195r36
+177r17 Buffer{35|8R12} 207m44 209m56 210m61 211m62 212m55
+

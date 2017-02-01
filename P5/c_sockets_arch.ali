@@ -1,0 +1,50 @@
+V "GNAT Lib v4.6"
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U c_sockets_arch%s	c_sockets_arch.ads	43b4f7a4 NE OO PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-unccon.ads		20070406091342 f9eb8f06
+D c_sockets_arch.ads	20131017103555 c328cf60
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D system.ads		20120503154647 23e1f70b
+D s-exctab.ads		20090417131547 66e51330
+D s-parame.ads		20091130110856 9c5d83fa
+D s-stalib.ads		20101021102512 c4241c00
+X 3 c_sockets_arch.ads
+32K9*C_Sockets_Arch 112l5 112e19
+36K12*C=36:33 51r26 52r26 58r25 65r27 67r27 70r34 71r34 72r34 73r34 74r34
+. 105r22 106r22 108r22
+51i4*SOCK_STREAM{5|35I9}
+52i4*SOCK_DGRAM{5|35I9}
+58i4*SOL_SOCKET{5|35I9}
+65i4*SO_REUSEPORT{5|35I9}
+67i4*SO_LINGER{5|35I9}
+70i4*IP_MULTICAST_IF{5|35I9}
+71i4*IP_MULTICAST_TTL{5|35I9}
+72i4*IP_MULTICAST_LOOP{5|35I9}
+73i4*IP_ADD_MEMBERSHIP{5|35I9}
+74i4*IP_DROP_MEMBERSHIP{5|35I9}
+83R9*in_addr 86e17 87r26 107r22
+85m10*s_addr{4|57M9}
+103R9*sockaddr_in 109e17 110r26
+105i10*sin_family{5|36I9}
+106m10*sin_port{5|44M9}
+107r10*sin_addr{83R9}
+108a10*sin_zero{5|79A9}
+X 4 interfac.ads
+36K9*Interfaces 3|30r6 36r22 85r22 4|171e15
+57M9*Unsigned_32 3|85r33
+X 5 i-c.ads
+18K20*C 3|30w17 36r33 5|230e17
+35I9*int<integer> 3|51r28 52r28 58r27 65r29 67r29 70r36 71r36 72r36 73r36
+. 74r36
+36I9*short<short_integer> 3|105r24
+44M9*unsigned_short 3|106r24
+72E9*char<character>
+79A9*char_array(72E9)<60M9> 3|108r24
+

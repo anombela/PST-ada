@@ -1,0 +1,77 @@
+V "GNAT Lib v4.6"
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnv1+nn
+
+U maps_protector_g%b	maps_protector_g.adb	f0f8a4d9 NE OO PK GE
+
+U maps_protector_g%s	maps_protector_g.ads	67701e7a BN EE NE OO PK GE
+W maps_g%s		maps_g.adb		maps_g.ali
+
+D maps_g.ads		20131127190150 a72e96af
+D maps_protector_g.ads	20131127190556 c05e88d5
+D maps_protector_g.adb	20140613113046 30a62c0c
+D system.ads		20120503154647 23e1f70b
+X 1 maps_g.ads
+5+14 Key_Type 2|12r55[6] 18r55[6] 23r55[6] 43r43[6] 47r43[6] 51r46[6] 3|7r50[2|6]
+. 15r45[2|6] 23r54[2|6] 53r52[2|6] 62r46[2|6] 71r52[2|6]
+6+14 Value_Type 2|13r55[6] 19r55[6] 44r52[6] 48r52[6] 3|8r59[2|6] 16r54[2|6]
+. 54r52[2|6] 63r49[2|6]
+16k9*Maps_G 65e11 2|3w6 6r34
+18R14 Map 2|63r26[6]
+20U19 Get 3|11s30[2|6]
+26U19 Put 3|19s30[2|6]
+31U19 Delete 3|26s30[2|6]
+35A14 Keys_Array_Type(5+14[2|6])<integer> 2|26r41[6]
+37V18 Get_Keys{35A14[2|6]} 3|31s37[2|6]
+39A14 Values_Array_Type(6+14[2|6])<integer> 2|30r43[6]
+41V18 Get_Values{39A14[2|6]} 3|36s37[2|6]
+43V18 Map_Length{natural} 3|41s37[2|6]
+45U19 Print_Map 3|46s30[2|6]
+X 2 maps_protector_g.ads
+6K22 Maps[1|16] 12r50 13r50 18r50 19r50 23r50 26r36 30r38 43r38 44r47 47r38
+. 48r47 51r41 63r21 3|7r45 8r54 11r25 15r40 16r49 19r25 23r49 26r25 31r32
+. 36r32 41r32 46r25 53r47 54r47 62r41 63r44 71r47
+7k9*Maps_Protector_G 6z22 66l5 66e21 3|3b14 97l5 97t21
+9W14*Prot_Map 11r41 17r41 22r44 28r32 32r34 34r34 36r41 64l5 64e13 3|5b24
+. 49l13 49t21 52r41 61r39 70r43 77r32 82r34 87r34 92r41
+11U19*Get 11=24 12>33 13<33 14<33 3|52b19 58l13 58t16
+11w24 M{9W14} 3|52b24 57r17
+12*33 Key{1|5+14[6]} 3|53b33 57r23
+13*33 Value{1|6+14[6]} 3|54b33 57m28
+14b33 Success{boolean} 3|55b33 57m35
+17U19*Put 17=24 18>33 19>33 20<33 3|61b19 67l13 67t16
+17w24 M{9W14} 3|61b24 66r17
+18*33 Key{1|5+14[6]} 3|62b33 66r23
+19*33 Value{1|6+14[6]} 3|63b33 66r28
+20b33 Success{boolean} 3|64b33 66m35
+22U19*Delete 22=27 23>33 24<33 3|70b19 75l13 75t19
+22w27 M{9W14} 3|70b27 74r17
+23*33 Key{1|5+14[6]} 3|71b33 74r26
+24b33 Success{boolean} 3|72b33 74m31
+26A17*Keys_Array_Type{1|35A14[6]}<integer> 28r49 54r34 3|29r42 77r49
+28V18*Get_Keys{26A17} 28>28 3|77b18 80l13 80t21
+28w28 M{9W14} 3|77b28 79r24
+30A17*Values_Array_Type{1|39A14[6]}<integer> 32r51 56r36 3|34r44 82r51
+32V18*Get_Values{30A17} 32>30 3|82b18 85l13 85t23
+32w30 M{9W14} 3|82b30 84r24
+34V18*Map_Length{natural} 34>30 3|87b18 90l13 90t23
+34w30 M{9W14} 3|87b30 89r24
+36U19*Print_Map 36=30 3|92b19 95l13 95t22
+36w30 M{9W14} 3|92b30 94r17
+43U19 Get 43>24 44<33 45<33 3|7b27 12l21 12t24 57s19
+43*24 Key{1|5+14[6]} 3|7b32 11r39
+44*33 Value{1|6+14[6]} 3|8b41 11m44
+45b33 Success{boolean} 3|9b41 11m51
+47U19 Put 47>24 48>33 49<33 3|15b27 20l21 20t24 66s19
+47*24 Key{1|5+14[6]} 3|15b32 19r39
+48*33 Value{1|6+14[6]} 3|16b41 19r44
+49b33 Success{boolean} 3|17b41 19m51
+51U19 Delete 51>27 52<41 3|23b27 27l21 27t27 74s19
+51*27 Key{1|5+14[6]} 3|23b35 26r42
+52b41 Success{boolean} 3|24b49 26m47
+54V18 Get_Keys{26A17} 3|29b26 32l21 32t29 79s26
+56V18 Get_Values{30A17} 3|34b26 37l21 37t31 84s26
+58V18 Map_Length{natural} 3|39b26 42l21 42t31 89s26
+60U17 Print_Map 3|44b27 47l21 47t30 94s19
+63r7 Map{1|18R14[6]} 3|11r34 19m34 26m37 31r46 36r48 41r48 46r40
+

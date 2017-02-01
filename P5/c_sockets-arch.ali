@@ -1,0 +1,55 @@
+V "GNAT Lib v4.6"
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U c_sockets.arch%b	c_sockets-arch.adb	759faf53 NE OO PK
+W c_sockets%s		c_sockets.ads		c_sockets.ali
+
+U c_sockets.arch%s	c_sockets-arch.ads	426d3178 BN NE OO PR PK
+W c_sockets%s		c_sockets.ads		c_sockets.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-unccon.ads		20070406091342 f9eb8f06
+D c_sockets.ads		20131017103555 44862f45
+D c_sockets-arch.ads	20131017103555 06eb1e3d
+D c_sockets-arch.adb	20131017103555 7374b16e
+D c_sockets_arch.ads	20131017103555 c328cf60
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D i-cstrin.ads		20090417131547 f3023ec4
+D system.ads		20120503154647 23e1f70b
+D s-exctab.ads		20090417131547 66e51330
+D s-parame.ads		20091130110856 9c5d83fa
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-unstyp.ads		20090409150019 6ae15c76
+X 5 c_sockets.ads
+38K9*C_Sockets 641e14 6|31r9 84r5 7|28r14 76r5
+42K12*C=42:33 6|41r44 7|33r28 42r44 44r16
+105R12*sockaddr_in{8|103R9} 6|76r33
+159I12*FD_Set_Range{integer} 6|49r43 57r37 7|58r43 69r37
+160A9*FD_Set(boolean)<integer> 6|48r43 56r37 7|57r43 68r37
+X 6 c_sockets-arch.ads
+31K19*Arch 5|38k9 6|84l15 84e19 7|28b24 76l15 76t19
+41V13*Send_UDP_Error_Ignored{boolean} 41>37 42r19 7|42b13 51l8 51t30
+41i37 Error{10|35I9} 7|42b37 46r10
+48U14*Set_In_Mask 48=27 49>27 50r19 7|57b14 62l8 62t19
+48a27 Mask{5|160A9} 7|57b27 61m7
+49i27 Element{5|159I12} 7|58b27 61r22
+56V13*Is_In_Mask{boolean} 56>25 57>25 59r19 7|68b13 74l8 74t18
+56a25 Mask{5|160A9} 7|68b25 73r14
+57i25 Element{5|159I12} 7|69b25 73r29
+76U14*bzero 76^20 77>20 78b<c,bzero>21
+76p20 addr(5|105R12)
+77m20 addr_size{9|57M9}
+X 7 c_sockets-arch.adb
+33i4 ECONNREFUSED{10|35I9} 46r18
+X 9 interfac.ads
+36K9*Interfaces 6|77r31 9|171e15
+57M9*Unsigned_32 6|77r42
+X 10 i-c.ads
+35I9*int<integer> 6|41r46 7|33r30 42r46 44r18
+

@@ -1,0 +1,124 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnvnnnnnnnvnnvnnnvnnnnnnnnvnnnnnnvnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U cuenta%b		cuenta.adb		bc596b4e NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cuenta_palabras%s	cuenta_palabras.adb	cuenta_palabras.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-comlin.ads		20100623092347 e0accaa5
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101220072657 e684739b
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D cuenta.adb		20131011152519 e55cdce5
+D cuenta_palabras.ads	20131011150420 e0ac0745
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D lista.ads		20131011161728 635091e9
+D system.ads		20120503154647 23e1f70b
+D s-conca2.ads		20090420091404 fbd0f2fc
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 17|3r6 4r6 5r6 7r6 8r6 14r29 15r30 57r12 57r51 59r50 61r15
+. 61r54 63r50 68r58 96r12 96r51 103r9 105r22 110r22
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 17|8w10 57r16 57r55 59r54 61r19 61r58 63r54 68r62
+. 96r16 96r55
+48V13*Argument{string} 17|57s29 57s68 59s67 61s32 61s71 63s67 68s75 96s29
+. 96s68
+X 5 a-except.ads
+55K13*Exceptions 370e19 17|5w10
+X 8 a-ioexce.ads
+18K13*IO_Exceptions 30e22 17|7w10 105r26 110r26
+21X4*Status_Error 17|110r40
+23X4*Name_Error 17|105r40
+X 10 a-string.ads
+16K13*Strings 35e16 17|4r10 14r33
+X 12 a-strunb.ads
+77K21*Unbounded 490e26 17|4w18 14r41
+80R9*Unbounded_String 474e14 17|42r18 44r25 45r19
+85V13*Length{natural} 17|77s43 86s25
+95V13*To_Unbounded_String{80R9} 17|76s28
+407V13*Tail{80R9} 17|77s28
+X 14 a-textio.ads
+49K13*Text_IO 472e16 17|3w10 15r34 103r13
+52P9*File_Type(370R9) 17|41r23
+53n23*In_File{53E9} 17|59r41 63r41 68r49
+93U14*Open 17|59s22 63s22 68s30
+99U14*Close 17|103s21
+167U14*New_Line 17|38s22 107s30 112s30
+184V13*End_Of_File{boolean} 17|73s24
+243U14*Put 17|21s30 23s30 27s30 29s30 33s30 109s30
+254V13*Get_Line{string} 17|76s53
+264U14*Put_Line 17|35s30 98s22 99s22 106s30 111s30
+X 17 cuenta.adb
+13U11*Cuenta 13b11 114l5 114t11
+14K17 ASU=14:41 42r14 44r21 45r15 76r24 77r24 77r39 86r21
+15K17 T_IO=15:34 21r25 23r25 27r25 29r25 33r25 35r25 38r17 41r18 59r17 59r36
+. 63r17 63r36 68r25 68r44 73r19 76r48 98r17 99r17 106r25 107r25 109r25 111r25
+. 112r25
+17U19 Escribir_Analisis 17b19 17>38 17>53 17>70 39t13 94s9
+17i38 L{integer} 20r20 21r48 23r48
+17i53 Co{integer} 26r21 27r48 29r48
+17i70 Ca{integer} 32r21 33r48 35r53
+41p9 Fichero{14|52P9} 59m27 63m27 68m35 73r37 76r62 81m90 103m27
+42r9 Txt{12|80R9} 76m17 77r34 77r50 80m42 86r32
+43i9 Posicion{integer} 80m47
+44r9 P_Anterior{12|80R9} 80m57
+45r9 Txt2{12|80R9} 77m17 80m69
+46i9 Numesp{integer} 80m75
+47i9 Contador{integer} 81m65 94r36
+48i9 Valor_Paquete{integer} 81r75
+49i9 Lineas{integer} 85m17 85r27 94r28
+50i9 Caracteres{integer} 87m17 87r30 94r46
+51i9 N{integer} 86m17 87r41
+X 18 cuenta_palabras.ads
+8K9*Cuenta_Palabras 17|6w6 80r17 100r17 18|29e20
+17U19*Trocear 17|80s33
+26U19*Palabras_Lista 17|100s33
+
